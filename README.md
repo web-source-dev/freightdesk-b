@@ -2,7 +2,9 @@
 
 External API for the FreightDesk desktop app. Supabase keys stay on this server.
 
-## Server deployment (PM2)
+## Requirements
+
+- Node.js 18+ (Node 20 on Linux needs the bundled `ws` package — included in dependencies)
 
 ```bash
 git clone https://github.com/web-source-dev/freightdesk-b.git
