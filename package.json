@@ -6,6 +6,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "check-env": "node scripts/check-env.js",
     "seed:admin": "node scripts/seed-admin-user.js",
     "postinstall": "node -e \"require('express'); require('cors'); require('jsonwebtoken');\""
   },

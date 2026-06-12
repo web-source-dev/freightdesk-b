@@ -3,7 +3,10 @@ const fs = require('fs');
 
 function loadDotEnv() {
   const envPath = path.join(__dirname, '..', '.env');
-  if (!fs.existsSync(envPath)) return;
+  if (!fs.existsSync(envPath)) {
+    return false;
+  }
+
   for (const line of fs.readFileSync(envPath, 'utf8').split(/\r?\n/)) {
     const trimmed = line.trim();
     if (!trimmed || trimmed.startsWith('#')) continue;
@@ -15,9 +18,14 @@ function loadDotEnv() {
       process.env[key] = value;
     }
   }
+
+  return true;
 }
 
-loadDotEnv();
+const envLoaded = loadDotEnv();
+if (envLoaded) {
+  console.log('[FreightDesk API] Loaded .env');
+}
 
 const cliPortArg = process.argv.find((arg, index) => index >= 2 && /^\d+$/.test(arg));
 const cliPort = cliPortArg ? Number(cliPortArg) : null;
