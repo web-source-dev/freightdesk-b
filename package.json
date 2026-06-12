@@ -1,0 +1,20 @@
+{
+  "name": "freightdesk-api",
+  "version": "1.0.0",
+  "description": "FreightDesk external API — holds Supabase keys server-side",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed:admin": "node scripts/seed-admin-user.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.4",
+    "cors": "^2.8.5",
+    "express": "^4.22.2",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
