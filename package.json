@@ -6,7 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "seed:admin": "node scripts/seed-admin-user.js"
+    "seed:admin": "node scripts/seed-admin-user.js",
+    "postinstall": "node -e \"require('express'); require('cors'); require('jsonwebtoken');\""
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.49.4",

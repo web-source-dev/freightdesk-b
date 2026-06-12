@@ -19,9 +19,12 @@ function loadDotEnv() {
 
 loadDotEnv();
 
+const cliPortArg = process.argv.find((arg, index) => index >= 2 && /^\d+$/.test(arg));
+const cliPort = cliPortArg ? Number(cliPortArg) : null;
+
 const APP_NAME = process.env.APP_NAME || 'FreightDesk';
 const APP_COMPANY = process.env.APP_COMPANY || APP_NAME;
-const API_PORT = Number(process.env.API_PORT || process.env.FREIGHTDESK_API_PORT || 3850);
+const API_PORT = cliPort || Number(process.env.API_PORT || process.env.FREIGHTDESK_API_PORT || 3850);
 const API_URL = process.env.FREIGHTDESK_API_URL || `http://localhost:${API_PORT}`;
 
 const SESSION_SUPABASE_URL = process.env.SESSION_SUPABASE_URL || process.env.SUPABASE_URL;
