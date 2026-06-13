@@ -48,6 +48,8 @@ const API_JWT_SECRET =
   process.env.API_JWT_SECRET ||
   (process.env.NODE_ENV === 'production' ? null : 'freightdesk-dev-api-secret-change-me');
 
+const DATHUB_PARTNER_API_KEY = process.env.DATHUB_PARTNER_API_KEY || '';
+
 module.exports = {
   APP_NAME,
   APP_COMPANY,
@@ -59,4 +61,5 @@ module.exports = {
   USER_SUPABASE_URL,
   USER_SUPABASE_SERVICE_KEY,
   API_JWT_SECRET,
+  DATHUB_PARTNER_API_KEY,
 };

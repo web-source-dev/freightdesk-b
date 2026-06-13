@@ -36,6 +36,7 @@ const proxyRoutes = require('./routes/proxy');
 const sessionRoutes = require('./routes/session');
 const userRoutes = require('./routes/users');
 const adminRoutes = require('./routes/admin');
+const partnerRoutes = require('./routes/partner');
 
 const app = express();
 app.use(cors());
@@ -50,6 +51,7 @@ app.use('/api/proxy', proxyRoutes);
 app.use('/api/session', sessionRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/partner', partnerRoutes);
 
 app.use((err, _req, res, _next) => {
   console.error('[FreightDesk API]', err.message);
