@@ -1,6 +1,7 @@
 const express = require('express');
 const adminService = require('../lib/adminService');
 const sessionStorageService = require('../lib/sessionStorageService');
+const containerLabelsService = require('../lib/containerLabelsService');
 const { requirePartner } = require('../middleware/requirePartner');
 
 const router = express.Router();
@@ -22,11 +23,13 @@ router.get('/dathub/sessions', async (_req, res) => {
     const sessions = [];
     const errors = {};
 
-    for (const container of containers) {
+    for (const item of containers) {
+      const container = item.container;
       const result = await sessionStorageService.downloadSession(container, { format: 'datcom' });
       if (result.success) {
         sessions.push({
           container: result.meta?.container || container,
+          label: item.label || 'new',
           cookieCount: result.meta?.exportCookieCount || 0,
           lastUpdated: result.data?.['dat.com']?.lastUpdated || null,
           session: result.data,
@@ -60,12 +63,24 @@ router.get('/dathub/sessions/:container', async (req, res) => {
     res.json({
       success: true,
       container: result.meta?.container || container,
+      label: await containerLabelsService.getLabel(container),
       cookieCount: result.meta?.exportCookieCount || 0,
       lastUpdated: result.data?.['dat.com']?.lastUpdated || null,
       session: result.data,
     });
   } catch (err) {
     res.status(500).json({ error: err.message || 'Failed to load partner session.' });
+  }
+});
+
+router.patch('/dathub/containers/:container/label', async (req, res) => {
+  try {
+    const container = String(req.params.container || '').toUpperCase();
+    const { label } = req.body || {};
+    const result = await containerLabelsService.setLabel(container, label);
+    res.json({ success: true, ...result });
+  } catch (err) {
+    res.status(400).json({ error: err.message || 'Failed to update container label.' });
   }
 });
 

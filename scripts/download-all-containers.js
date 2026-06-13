@@ -192,13 +192,13 @@ async function downloadViaRemoteApi(args) {
     return { containers: [], ok: [], failed: [] };
   }
 
-  console.log(`[Remote] Found ${containers.length} container(s): ${containers.join(', ')}`);
+  console.log(`[Remote] Found ${containers.length} container(s): ${containers.map((c) => (typeof c === 'string' ? c : c.container)).join(', ')}`);
 
   const ok = [];
   const failed = [];
 
-  for (const container of containers) {
-    const label = String(container).toUpperCase();
+  for (const item of containers) {
+    const label = String(typeof item === 'string' ? item : item.container).toUpperCase();
     process.stdout.write(`[Remote] Downloading ${label}... `);
     try {
       const result = await apiRequest(args.apiUrl, `/api/admin/sessions/download/${label}`, {
@@ -235,13 +235,13 @@ async function downloadViaLocalStorage(args) {
     return { containers: [], ok: [], failed: [] };
   }
 
-  console.log(`[Local] Found ${containers.length} container(s): ${containers.join(', ')}`);
+  console.log(`[Local] Found ${containers.length} container(s): ${containers.map((c) => (typeof c === 'string' ? c : c.container)).join(', ')}`);
 
   const ok = [];
   const failed = [];
 
-  for (const container of containers) {
-    const label = String(container).toUpperCase();
+  for (const item of containers) {
+    const label = String(typeof item === 'string' ? item : item.container).toUpperCase();
     process.stdout.write(`[Local] Downloading ${label}... `);
     try {
       const result = await sessionStorageService.downloadSession(label);

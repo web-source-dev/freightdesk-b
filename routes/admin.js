@@ -1,6 +1,7 @@
 const express = require('express');
 const adminService = require('../lib/adminService');
 const sessionStorageService = require('../lib/sessionStorageService');
+const containerLabelsService = require('../lib/containerLabelsService');
 const { signAdminToken } = require('../lib/jwt');
 const { requireAdmin } = require('../middleware/requireAdmin');
 
@@ -74,6 +75,17 @@ router.get('/containers', requireAdmin, async (_req, res) => {
   }
 });
 
+router.patch('/containers/:container/label', requireAdmin, async (req, res) => {
+  try {
+    const container = String(req.params.container || '').toUpperCase();
+    const { label } = req.body || {};
+    const result = await containerLabelsService.setLabel(container, label);
+    res.json({ success: true, ...result });
+  } catch (err) {
+    res.status(400).json({ error: err.message || 'Failed to update container label.' });
+  }
+});
+
 router.get('/sessions/download/:container', requireAdmin, async (req, res) => {
   try {
     const container = String(req.params.container || '').toUpperCase();
@@ -108,7 +120,8 @@ router.get('/sessions/download-all', requireAdmin, async (req, res) => {
     const sessions = {};
     const errors = {};
 
-    for (const container of containers) {
+    for (const item of containers) {
+      const container = typeof item === 'string' ? item : item.container;
       const result = await sessionStorageService.downloadSession(container, { format });
       if (result.success) {
         sessions[container] = result.data;
