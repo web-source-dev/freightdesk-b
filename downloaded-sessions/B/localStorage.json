@@ -1,0 +1,14 @@
+{
+  "1b834ee5-f9c1-4d3b-8643-f5a5cb63ee5a-searches-load": "{\"focusedSelector\":\"L.y2lyz\",\"searches\":[{\"selector\":\"L.y2lyz\",\"state\":{\"type\":\"load\",\"resolutionState\":\"cached\"}}]}",
+  "SearchStorageDate": "2026-04-10T06:31:25.440-07:00",
+  "cxone:4537:_CXoneVisit": "{\"visitId\":\"90d0f054-9e2a-498a-bf0e-950f82d1e876\",\"visitTimestamp\":1775827838161,\"utm\":{\"campaign\":\"\",\"content\":\"\",\"medium\":\"\",\"source\":\"\",\"term\":\"\"},\"externalReferrer\":\"\",\"started\":1775827838161}",
+  "cxone:4537:_CXoneVisitor": "{\"visitorId\":\"cb16ffa2-6398-44c2-a6b9-62b4f4d11d18\",\"tags\":[],\"customVariables\":{},\"lastProactiveOfferTime\":0}",
+  "cxone:4537:_CxoneInactivity": "{\"destinationId\":\"060947f0-8183-4599-a349-dd114a5483ae\",\"timestamp\":1775828074312}",
+  "dat.notifications.g302o43s.lastRedDotRequestTime": "1775827870804000000",
+  "feature-experiment|increase_truck_posting_volume|1b834ee5-f9c1-4d3b-8643-f5a5cb63ee5a": "\"user-is-not-in-experiment\"",
+  "fs_optly_pending_events": "{}",
+  "national-assets-count-view-type|1b834ee5-f9c1-4d3b-8643-f5a5cb63ee5a": "SHIPMENT",
+  "optimizely-vuid": "vuid_c632d6beb8d44814a76461c3ab1",
+  "profile": "{\"sub\":\"auth0|698e628c63a30f4383cc61d7\",\"given_name\":\"Jack\",\"family_name\":\"Addison\",\"nickname\":\"jackaddison881\",\"name\":\"jackaddison881@gmail.com\",\"picture\":\"https://s.gravatar.com/avatar/7888033e273134d7f9099917e9393635?s=480&r=pg&d=https%3A%2F%2Fcdn.auth0.com%2Favatars%2Fja.png\",\"updated_at\":\"2026-04-09T12:15:09.565Z\",\"email\":\"jackaddison881@gmail.com\",\"email_verified\":true,\"https://dat.com/accountname\":\"MSG TRUCKING LLC\",\"https://dat.com/csb_id\":4265814,\"https://dat.com/user_id\":\"1b834ee5-f9c1-4d3b-8643-f5a5cb63ee5a\",\"https://dat.com/office_id\":\"4bbe6fcd-2f12-4345-ac1e-a34996cce3fe\"}",
+  "user-type-free-or-paid|1b834ee5-f9c1-4d3b-8643-f5a5cb63ee5a": "Paid"
+}

@@ -1,0 +1,107 @@
+{
+  "sessionId": "cookies",
+  "sessionName": "Converted Cookies",
+  "dat.com": {
+    "cookies": [
+      {
+        "name": "__cf_bm",
+        "value": "7FxgAc6uiUF7k3R5B9FQDZKrX.h5n3YCnSnfRUF.GXU-1781035462.1532962-1.0.1.1-xgyqz.YvmWAAnMh1SxFEVeymHHu45dxb.cj2Q8zvhhW__2b4hLdNVZK6EMDOuDhCzkBA1eIM2FjSzlZv2cQLEx1d.l4J97Sj3VLKnZ.flqOYkOA7xBdRP7ZIFZ46KMp7",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "did",
+        "value": "s%3Av0%3A18bf5c81-00ee-430d-ab52-b894f219df18%3A5f1331429501816830d652fc2a6eaaaa9685d20f03301859984d99976702d793.kqWt7iisIqAu0iC9xoJieyaYJipBtjz0mf4pWqC5JNM",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "did_compat",
+        "value": "s%3Av0%3A18bf5c81-00ee-430d-ab52-b894f219df18%3A5f1331429501816830d652fc2a6eaaaa9685d20f03301859984d99976702d793.kqWt7iisIqAu0iC9xoJieyaYJipBtjz0mf4pWqC5JNM",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "auth0",
+        "value": "s%3AHn4NB8Za5fTttoESq5cXrRXK6TqxXjuN.5rs%2B5N8wMhWpuZel0KKJPyE6TwqAyR7PmI6pNdiPEQw",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "auth0_compat",
+        "value": "s%3AHn4NB8Za5fTttoESq5cXrRXK6TqxXjuN.5rs%2B5N8wMhWpuZel0KKJPyE6TwqAyR7PmI6pNdiPEQw",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "auth0|6a033f5578d22ae775f6b022",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "lax",
+        "expirationDate": 1812572550
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "5f6136f0-b769-4971-b4d1-08533ebf98c7",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "lax",
+        "expirationDate": 1812572550
+      },
+      {
+        "name": "dat_agent_device_id",
+        "value": "d7ef5cdc-67c5-c9f9-19cb-6e7e413318f3",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "_dd_s",
+        "value": "logs=1&id=d4a9af09-6b60-4a94-80c0-6189085ef3fd&created=1781035459832&expire=1781036790463&rum=0&aid=dc8d0957-dc92-4c59-b03c-c08feb87df31",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "strict"
+      },
+      {
+        "name": "_dd_s",
+        "value": "logs=1&id=d4a9af09-6b60-4a94-80c0-6189085ef3fd&created=1781035459832&expire=1781036790463&rum=0&aid=dc8d0957-dc92-4c59-b03c-c08feb87df31&lock=6daa9245-326e-40fd-ab9b-10d054263d01",
+        "domain": "one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "strict",
+        "expirationDate": 1781037461
+      }
+    ],
+    "lastUpdated": "2026-06-13T07:17:25.713Z"
+  },
+  "lastUpdated": "2026-06-13T07:17:25.713Z",
+  "sourceZipFile": null,
+  "extractionDate": "2026-06-13T07:17:25.713Z",
+  "hasCookies": true,
+  "cookieCount": 10
+}

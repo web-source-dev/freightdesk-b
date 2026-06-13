@@ -1,0 +1,7 @@
+{
+  "apc_curr_flow": "{\"flowId\":\"82cc4db6-d1aa-4083-a334-25d2c2c46a49\",\"stepId\":\"0f5972ff-421f-4eee-9ace-31c589d02caa\",\"status\":\"STEP_ATTEMPTED\"}",
+  "apc_user": "{\"_hostname\":\"one.dat.com\",\"_lastBrowserLanguage\":\"en-US\",\"_lastPageTitle\":\"DAT One\",\"_lastPageUrl\":\"\",\"_updatedAt\":1781183462857,\"_lastSeenAt\":1781183462857,\"_userAgent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36\",\"_currentPageTitle\":\"Search Loads - DAT One\",\"_currentPageUrl\":\"https://one.dat.com/search-loads\",\"_sessionRandomizer\":39,\"_sessionPageviews\":1,\"_timezoneCode\":\"America/Chicago\",\"_timezoneOffset\":300,\"_appId\":\"9a218725-64a9-45c6-81c1-981e509942ca\",\"_testContentId\":null,\"_testContentUrl\":null}",
+  "ask": "\"/search-loads\"",
+  "cxone:4537:_CXoneDestinationId": "bd53f3ca-18b8-4715-93cc-27685f498455",
+  "cxone:4537:guide-state": "{\"lastModified\":1781183444932,\"portalButtonGuideOpen\":false,\"multiButtonGuideOpen\":false,\"guideVisible\":true,\"chatVisible\":false,\"preContactForm\":{},\"informationBridgeIds\":{}}"
+}

@@ -1,0 +1,295 @@
+{
+  "dat.com": {
+    "cookies": [
+      {
+        "name": "handlID",
+        "value": "1132250190191",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_url_base",
+        "value": "https://www.dat.com/login",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_url",
+        "value": "https://www.dat.com/login?iss=https%253A%252F%252Flogin.dat.com%252F",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_ref",
+        "value": "https://one.dat.com/",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_ref_domain",
+        "value": "one.dat.com",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_landing_page",
+        "value": "https://www.dat.com/login?iss=https%253A%252F%252Flogin.dat.com%252F",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_landing_page_base",
+        "value": "https://www.dat.com/login",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "handl_original_ref",
+        "value": "https://one.dat.com/",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "organic_source",
+        "value": "https://one.dat.com/",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "organic_source_str",
+        "value": "Other",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "traffic_source",
+        "value": "Referral",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "first_traffic_source",
+        "value": "Referral",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783693813
+      },
+      {
+        "name": "_hjSessionUser_2420462",
+        "value": "eyJpZCI6ImE0MGQ2ZGI0LWM1MzEtNTA3Yi04ZjA3LWFmNjk3YTFiYzUwOSIsImNyZWF0ZWQiOjE3ODExMDE4MzMyMTIsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "expirationDate": 1812739513
+      },
+      {
+        "name": "did",
+        "value": "s%3Av0%3Ae9ba7212-9e20-4e9f-b6ee-d28bc3e159e7%3Affe9c6d0e9e8b45f2f4587c6f695dadb58cc1940a0187b21b492fe59c73c42cc.5zPjviHtdRwfA0qL6ldNnhB5aYdVcv1Fwg0PkWV04FY",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "expirationDate": 1812660735.420154
+      },
+      {
+        "name": "did_compat",
+        "value": "s%3Av0%3Ae9ba7212-9e20-4e9f-b6ee-d28bc3e159e7%3Affe9c6d0e9e8b45f2f4587c6f695dadb58cc1940a0187b21b492fe59c73c42cc.5zPjviHtdRwfA0qL6ldNnhB5aYdVcv1Fwg0PkWV04FY",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1812660735.420655
+      },
+      {
+        "name": "auth0",
+        "value": "s%3AeSTgUFKkuYQDKpF6QB-q9oUff8xWuqxD.Hlu%2Fi2MqwFi54G0aT%2FnBX3JSjO3l3aevsUhrnkiuun8",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "expirationDate": 1781458703.899788
+      },
+      {
+        "name": "auth0_compat",
+        "value": "s%3AeSTgUFKkuYQDKpF6QB-q9oUff8xWuqxD.Hlu%2Fi2MqwFi54G0aT%2FnBX3JSjO3l3aevsUhrnkiuun8",
+        "domain": ".login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1781458703.900485
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "auth0|6a297909157aff277345d586",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "lax",
+        "expirationDate": 1812739518
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "ffbcd0aa-7ee3-4a30-9bfa-3d8ce5e02b56",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "lax",
+        "expirationDate": 1812739518
+      },
+      {
+        "name": "dat_agent_device_id",
+        "value": "1f9f8707-5692-7df1-30be-78ae79827011",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1815663213.102661
+      },
+      {
+        "name": "__smVID",
+        "value": "ecdc9534a4e49b9ce8351740eacf2f4c2d78b65fdbe356387fa195128a01c45c",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783791519
+      },
+      {
+        "name": "_hjHasCachedUserAttributes",
+        "value": "true",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "auth0",
+        "value": "s%3AeSTgUFKkuYQDKpF6QB-q9oUff8xWuqxD.Hlu%2Fi2MqwFi54G0aT%2FnBX3JSjO3l3aevsUhrnkiuun8",
+        "domain": "login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "expirationDate": 1781462715.525625
+      },
+      {
+        "name": "auth0_compat",
+        "value": "s%3AeSTgUFKkuYQDKpF6QB-q9oUff8xWuqxD.Hlu%2Fi2MqwFi54G0aT%2FnBX3JSjO3l3aevsUhrnkiuun8",
+        "domain": "login.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1781462715.525761
+      },
+      {
+        "name": "__cf_bm",
+        "value": "JVK8nddOxGhifo.ip9G8efcT591SOvL587CorxVgMM4-1781203498.5287373-1.0.1.1-R4yMGkexcVSv.q8rZkxBD6FOQgIa3aS70obAdO86z751nyHjESfyrYjSWxf_EHyyQuiHktaMJ9_n8b7gjqsdKOTFd3WD6dGGE.0l80Xm6yPlHRF7LGgrnT7flmXS3AlQ",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "no_restriction",
+        "expirationDate": 1781205297.800805
+      },
+      {
+        "name": "_hjSession_2420462",
+        "value": "eyJpZCI6ImUwMmQwODZmLTU1NTctNGRmOC1hZjM0LTc0NWI4OGMyY2QyYSIsImMiOjE3ODEyMDM1MDI3NzEsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction",
+        "expirationDate": 1781205302
+      },
+      {
+        "name": "_hjHasCachedUserAttributes",
+        "value": "true",
+        "domain": "one.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "no_restriction"
+      },
+      {
+        "name": "__smVID",
+        "value": "ecdc9534a4e49b9ce8351740eacf2f4c2d78b65fdbe356387fa195128a01c45c",
+        "domain": "one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1783795517
+      },
+      {
+        "name": "_dd_s",
+        "value": "logs=1&id=c075792c-7f5c-4915-b88b-f274a9fed5cd&created=1781203493992&expire=1781204429424&rum=0&aid=4adedf8d-404c-417a-b061-e196e2cede1a",
+        "domain": "one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "strict",
+        "expirationDate": 1781204432
+      }
+    ],
+    "lastUpdated": "2026-06-11T18:45:33.879Z"
+  }
+}

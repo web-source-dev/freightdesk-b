@@ -1,5 +1,6 @@
 const express = require('express');
 const adminService = require('../lib/adminService');
+const sessionStorageService = require('../lib/sessionStorageService');
 const { signAdminToken } = require('../lib/jwt');
 const { requireAdmin } = require('../middleware/requireAdmin');
 
@@ -70,6 +71,63 @@ router.get('/containers', requireAdmin, async (_req, res) => {
     res.json(await adminService.listSessionContainers());
   } catch (err) {
     res.status(500).json({ error: err.message || 'Failed to list containers.' });
+  }
+});
+
+router.get('/sessions/download/:container', requireAdmin, async (req, res) => {
+  try {
+    const container = String(req.params.container || '').toUpperCase();
+    const format = String(req.query.format || 'raw').toLowerCase();
+    const allowed = new Set(['raw', 'datcom', 'session']);
+    if (!allowed.has(format)) {
+      return res.status(400).json({ error: 'Invalid format. Use raw, datcom, or session.' });
+    }
+
+    const result = await sessionStorageService.downloadSession(container, {
+      format,
+      sessionName: req.query.sessionName || undefined,
+    });
+    if (!result.success) {
+      return res.status(result.message?.includes('No session') ? 404 : 500).json(result);
+    }
+    res.json(result);
+  } catch (err) {
+    res.status(500).json({ error: err.message || 'Session download failed.' });
+  }
+});
+
+router.get('/sessions/download-all', requireAdmin, async (req, res) => {
+  try {
+    const format = String(req.query.format || 'raw').toLowerCase();
+    const allowed = new Set(['raw', 'datcom', 'session']);
+    if (!allowed.has(format)) {
+      return res.status(400).json({ error: 'Invalid format. Use raw, datcom, or session.' });
+    }
+
+    const containers = await adminService.listSessionContainers();
+    const sessions = {};
+    const errors = {};
+
+    for (const container of containers) {
+      const result = await sessionStorageService.downloadSession(container, { format });
+      if (result.success) {
+        sessions[container] = result.data;
+      } else {
+        errors[container] = result.message || 'Download failed.';
+      }
+    }
+
+    res.json({
+      success: true,
+      format,
+      containers,
+      downloaded: Object.keys(sessions).length,
+      failed: Object.keys(errors).length,
+      sessions,
+      errors,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message || 'Bulk session download failed.' });
   }
 });
 

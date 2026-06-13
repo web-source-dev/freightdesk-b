@@ -1,0 +1,184 @@
+{
+  "sessionId": "69feb1438661c53fcacef545",
+  "sessionName": "Shehroz Avva Transport",
+  "dat.com": {
+    "cookies": [
+      {
+        "name": "_dd_s",
+        "value": "logs=1&id=b4d7a82d-d841-4340-ac8c-c09d04f3ae90&created=1779218349505&expire=1779219266891&rum=0&aid=6db9b3ff-2bee-4c4a-8dec-d787d88b7fad",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1779219272
+      },
+      {
+        "name": "_hjSession_2420462",
+        "value": "eyJpZCI6ImY1MDA1NjRjLWRiN2YtNDFiOS1iZGVkLTI2MDljYjk5MjVjZSIsImMiOjE3NzkyMTgzNTQxOTQsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjowLCJzcCI6MH0=",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1779220154
+      },
+      {
+        "name": "__cf_bm",
+        "value": "aS6lU1mvbVQCWXNOw8yWGY5IzgoWGlGCboqaaGuba74-1779218355.3141634-1.0.1.1-iPmTVJduv3bB28Oi2PPZ3iOsAnQ6_L2_MTlkIpaWBYaReZ5iOMCFRTqhUUvRFmNSx5Gfv0QUKH3SiN2jnhY.wLAy2fsulTY8XQRbkLr1mNfsloDKXPRifudK1USnuoGd",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1779220153.267692
+      },
+      {
+        "name": "auth0-mf_compat",
+        "value": "_PFv56kRx6VSJlhA23UFmg.UUaWf2oDWwmESfvaqL0rVAeC6hY58Xcx7rzV_jsHruW5MsI-AtweVKKOPIdflw7NFiLAQ9TTlSe46pCnyF6V4tKloAhcYGTiqogefAPw27nOT9W-ukaB_3ioQEMDrSaP.1778258654921.2592000000.vDZILDLfkQW74ig63qzOEogYWeHSkqhDcG9x3zj2puE",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1779823153.267524
+      },
+      {
+        "name": "auth0-mf",
+        "value": "_PFv56kRx6VSJlhA23UFmg.UUaWf2oDWwmESfvaqL0rVAeC6hY58Xcx7rzV_jsHruW5MsI-AtweVKKOPIdflw7NFiLAQ9TTlSe46pCnyF6V4tKloAhcYGTiqogefAPw27nOT9W-ukaB_3ioQEMDrSaP.1778258654921.2592000000.vDZILDLfkQW74ig63qzOEogYWeHSkqhDcG9x3zj2puE",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1779823153.267324
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "4520bfe7-3c1b-4916-9776-2b46e42d4826",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1810754370
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "auth0|69990c9509bf3c05ca084786",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1810754370
+      },
+      {
+        "name": "auth0_compat",
+        "value": "s%3A6-YnIGg4zDJtXZ9rexYU5yxWOnY8Z6nz.SGthqjJASs4r8%2FVV1InoqNRq5BDUmBKuvPziLbU4qY4",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1779477553.267652
+      },
+      {
+        "name": "auth0",
+        "value": "s%3A6-YnIGg4zDJtXZ9rexYU5yxWOnY8Z6nz.SGthqjJASs4r8%2FVV1InoqNRq5BDUmBKuvPziLbU4qY4",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1779477553.267404
+      },
+      {
+        "name": "did_compat",
+        "value": "s%3Av0%3Acca9e9dd-3eff-44a8-aaef-615394e6fb19%3Ae4dc685f45eda446006a5bde8e6a67aa69f9bc8f377a78e0186b8c04bbb6e678%3A66080a097530626b7a8188ce43acf2446f90558ee1adcf32d3913a4e9ba3f50b.bL4X9GrdkjQUMnzEovUy59QDp8Da0uho7QB%2BClopRiA",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1810754530.501692
+      },
+      {
+        "name": "did",
+        "value": "s%3Av0%3Acca9e9dd-3eff-44a8-aaef-615394e6fb19%3Ae4dc685f45eda446006a5bde8e6a67aa69f9bc8f377a78e0186b8c04bbb6e678%3A66080a097530626b7a8188ce43acf2446f90558ee1adcf32d3913a4e9ba3f50b.bL4X9GrdkjQUMnzEovUy59QDp8Da0uho7QB%2BClopRiA",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "unspecified",
+        "expirationDate": 1810754530.501344
+      },
+      {
+        "name": "ajs_anonymous_id",
+        "value": "4520bfe7-3c1b-4916-9776-2b46e42d4826",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1809797620
+      },
+      {
+        "name": "ajs_user_id",
+        "value": "auth0|69990c9509bf3c05ca084786",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1809797620
+      },
+      {
+        "name": "_hjSessionUser_2420462",
+        "value": "eyJpZCI6IjlmOTM0NThjLTI4ZjEtNTZmZS1iOTJhLWY3YTI0ZDhiZTBjMCIsImNyZWF0ZWQiOjE3NzgyNDk4NTM5MDYsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": ".one.dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1810726476
+      },
+      {
+        "name": "__smVID",
+        "value": "81cd3f1468ae7795849488db9bf46aef898e9f2dacafc97d2f0cc0140645cd0b",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1781810365
+      },
+      {
+        "name": "dat_agent_device_id",
+        "value": "854e6415-8b70-8183-f46e-a714d03a493f",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": false,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1812810098.668836
+      },
+      {
+        "name": "_hjSessionUser_2420462",
+        "value": "eyJpZCI6IjlmOTM0NThjLTI4ZjEtNTZmZS1iOTJhLWY3YTI0ZDhiZTBjMCIsImNyZWF0ZWQiOjE3NzgyNDk4NTM5MDYsImV4aXN0aW5nIjp0cnVlfQ==",
+        "domain": ".dat.com",
+        "path": "/",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "unspecified",
+        "expirationDate": 1810754355
+      }
+    ],
+    "lastUpdated": "2026-06-04T13:00:35.026Z"
+  },
+  "lastUpdated": "2026-06-04T13:00:35.026Z",
+  "sourceZipFile": "1779218390631-958597927-tmp-5960-s2VBp08INLTt-.zip",
+  "extractionDate": "2026-06-04T13:00:35.026Z",
+  "hasCookies": true,
+  "cookieCount": 17
+}
